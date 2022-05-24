@@ -8,5 +8,9 @@ namespace WishList.Controllers
         {
             return Index();
         }
+        public IActionResult Error()
+        {
+            return Error();
+        }
     }
 }

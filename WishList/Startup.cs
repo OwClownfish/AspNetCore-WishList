@@ -31,10 +31,11 @@ namespace WishList
             }
             else
             {
-                app.UseExceptionHandler("/Home/Errr");
-                app.UseRouting();
-                app.UseEndpoints(endpoints => { endpoints.MapDefaultControllerRoute(); });
+                app.UseExceptionHandler("/Home/Error");
+ 
             }
+            app.UseRouting();
+            app.UseEndpoints(endpoints => { endpoints.MapDefaultControllerRoute(); });
 
         }
     }

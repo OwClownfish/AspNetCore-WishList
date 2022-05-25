@@ -31,7 +31,7 @@ namespace WishList
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Home/Errr");
                 app.UseRouting();
                 app.UseEndpoints(endpoints => { endpoints.MapDefaultControllerRoute(); });
             }
